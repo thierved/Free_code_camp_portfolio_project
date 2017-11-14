@@ -1,0 +1,61 @@
+
+html, body, h1, h2, h3, h4, p, ul, li, a,span {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+/*------------------ NavBar ---------------*/
+
+nav {
+    height: 50px;
+    background-color: rgb(15, 15, 15);
+}
+
+#logo {
+    display: block;
+    float: left;
+    padding-top: 3px;
+    text-transform: uppercase;
+    width: 80px;
+    border-right: 1px solid rgb(253, 253, 253);
+    border-left: 1px solid rgb(253, 253, 253);
+    margin-top: 8px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.list-menu {
+    float: right;
+    margin-right: 100px;
+    padding-top: 15px;
+}
+
+.list-menu li {
+    float: left;
+    padding-left: 30px;
+    font-size: 1.2rem;
+}
+
+.list-menu li a, #logo {
+    color: rgb(253, 253, 253);
+}
