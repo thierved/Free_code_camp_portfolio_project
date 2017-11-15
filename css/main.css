@@ -6,7 +6,7 @@ html, body, h1, h2, h3, h4, p, ul, li, a,span {
 
 body {
     font-family: 'Raleway', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 0.2px;
     box-sizing: border-box;
 }
@@ -20,7 +20,7 @@ li {
 }
 
 .container {
-    width: 900px;
+    width: 960px;
     margin: 0 auto;
 }
 
@@ -64,7 +64,8 @@ nav {
 
 header {
     height: 500px;
-    background: url(../images/img.jpeg) 100% no-repeat;
+    background: url(../images/img.jpeg) no-repeat center center fixed;
+    background-size: cover;
 }
 
 .description-text {
@@ -84,6 +85,7 @@ header {
 
 .description-text h1, .description-text h3 {
     margin-left: 2rem;
+    color: #ffffff;
 }
 
 .social-media {
@@ -104,4 +106,43 @@ header {
     text-align: center;
     font-size: 1.2rem;
     color: rgb(15, 15, 15);
+}
+
+/*---------------- PORTFOLIO -------------*/
+
+
+#recent-projects {
+    padding: 3rem 0;
+    background-color: #fff;
+}
+
+#recent-projects h2, #recent-projects p {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+    
+.projects-list li {
+    position: relative;
+    background: url("http://via.placeholder.com/302x350") no-repeat;
+    background-color: #555;
+    width: 31.3333%;
+    height: 300px;
+    float: left;
+    margin: 1rem 26.965px 1rem 0;
+}
+
+.projects-list li:nth-child(3n) {
+    margin-right: 0;
+}
+
+.projects-list li a {
+    width: 100%;
+    height: 40px;
+    padding-top: 15px;
+    color: rgba(255, 255, 255, 0.815);
+    position: absolute;
+    bottom: 0;
+    display: block;
+    text-align: center;
+    background-color: rgba(151, 149, 149, 0.815);
 }
