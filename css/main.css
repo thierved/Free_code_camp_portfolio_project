@@ -8,6 +8,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     letter-spacing: 0.2px;
+    box-sizing: border-box;
 }
 
 a {
@@ -36,12 +37,9 @@ nav {
     padding-top: 3px;
     text-transform: uppercase;
     width: 80px;
-    border-right: 1px solid rgb(253, 253, 253);
-    border-left: 1px solid rgb(253, 253, 253);
+    border-right: 1px solid rgb(253, 253, 253);    
     margin-top: 8px;
-    text-align: center;
-    font-size: 1.2rem;
-    font-weight: bold;
+    text-align: center;    
 }
 
 .list-menu {
@@ -57,5 +55,53 @@ nav {
 }
 
 .list-menu li a, #logo {
+    font-size: 1.2rem;
+    font-weight: bold;
     color: rgb(253, 253, 253);
+}
+
+/*---------------- HEADER --------------------*/
+
+header {
+    height: 500px;
+    background: url(../images/img.jpeg) 100% no-repeat;
+}
+
+.description-text {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 10rem;
+}
+
+.description-text h1 {
+    font-size: 2rem;  
+}
+
+.description-text h3 {
+    font-size: 1.2rem;    
+    padding-top: 3rem;
+}
+
+.description-text h1, .description-text h3 {
+    margin-left: 2rem;
+}
+
+.social-media {
+    width: 50%;
+    height: 100px;
+    margin: 4rem auto 0 auto;
+}
+
+.social-media li {
+    width: 20%;
+    float: left;  
+}
+
+
+.social-media li a {
+    display: block;
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color: rgb(15, 15, 15);
 }
