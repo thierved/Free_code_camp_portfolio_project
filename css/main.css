@@ -44,13 +44,12 @@ nav {
 
 .list-menu {
     float: right;
-    margin-right: 100px;
     padding-top: 15px;
 }
 
 .list-menu li {
     float: left;
-    padding-left: 30px;
+    padding-left: 40px;
     font-size: 1.2rem;
 }
 
@@ -64,7 +63,7 @@ nav {
 
 header {
     height: 500px;
-    background: url(../images/img.jpeg) no-repeat center center fixed;
+    background: url("https://png.pngtree.com/photos/md/2017-09-09/c7d039941db05691ba4e4645df9aee6c.jpeg") no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -96,7 +95,7 @@ header {
 
 .social-media li {
     width: 20%;
-    float: left;  
+    float: left; 
 }
 
 
@@ -105,7 +104,7 @@ header {
     padding-top: 2rem;
     text-align: center;
     font-size: 1.2rem;
-    color: rgb(15, 15, 15);
+    color: rgb(255, 255, 255);
 }
 
 /*---------------- PORTFOLIO -------------*/
@@ -113,7 +112,7 @@ header {
 
 #recent-projects {
     padding: 3rem 0;
-    background-color: #fff;
+    background-color: rgba(233, 233, 233, 0.897);
 }
 
 #recent-projects h2, #recent-projects p {
@@ -144,5 +143,57 @@ header {
     bottom: 0;
     display: block;
     text-align: center;
-    background-color: rgba(151, 149, 149, 0.815);
+    background-color: rgba(46, 45, 45, 0.658);
+}
+
+/*----------------  ABOUT ME -------------*/
+
+#about-me {
+    background-color: #070707;
+    padding-top: 2rem;
+    color: white;
+}
+
+.sub {
+    width: 20%;
+    text-align: center;
+    margin:0 auto 2rem auto;
+    padding: 10px;
+    border-bottom: 1px solid rgba(110, 109, 109, 0.911);
+}
+
+.my-info {
+    width: 80%;
+    height: 195px;
+    margin: auto;
+    padding: 0 15%;
+    border-bottom: 1px solid rgba(75, 73, 73, 0.637);
+}
+
+.my-info img {
+    width: 20%;
+    float: left;
+    border-radius: 5%;
+}
+
+.my-info p {
+    float: right;
+    width: 60%;
+    padding: 0 10%;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.my-info h3 {
+    padding: 1rem 0;
+}
+
+.lan-fram {
+    float: left;
+    width: 40%;
+}
+
+.tools {
+    float: right;
+    margin-right: 30%;
 }
