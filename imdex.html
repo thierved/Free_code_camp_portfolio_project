@@ -1,10 +1,10 @@
 <html>
     <head>
-        <title>thierno sadou diallo</title>
-        <script src="https://use.fontawesome.com/d53396cac4.js"></script>
+        <title>thierno sadou diallo</title>        
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">       
-        <link rel="stylesheet" href="css/main.css">        
+        <link rel="stylesheet" href="css/main.css">    
+        <script src="https://use.fontawesome.com/d53396cac4.js"></script>    
     </head>
 
     <body>
@@ -12,10 +12,10 @@
             <div class="container">
                 <a href="#" id="logo">sadu</a>
                 <ul class="list-menu">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Work</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#recent-projects">Work</a></li>
+                    <li><a href="#about-me">About</a></li>
+                    <li><a href="#contact-me">Contact</a></li>
                 </ul>
             </div>  
          </nav> <!-- end of nav -->
@@ -71,7 +71,7 @@
                 <div class="my-info">
                     <img src="./images/my_picture.jpg" alt="">
                     <p>
-                        My name is Thierno sadou diallo ( "cherno sadu jallow" in English)
+                        My name is <em>Thierno sadou diallo</em> ( <em>"cherno sadu jallow"</em> in English)
                         I live in Senegal. I'm a self-taught programmer. I love 
                         technology that's what led to become a programmer and I always 
                         learn new things.                 
@@ -81,11 +81,9 @@
                     <div class="lan-fram">
                         <h3>Languages and FrameWorks</h3>
                         <ul>
-                            <li>Java</li>
-                            <li>JavaScript</li>
+                            <li>Java  , JavaScript</li>
                             <li>HTML/CSS</li>
-                            <li>JQuerry</li>
-                            <li>Bootstrap</li>                
+                            <li>JQuerry ,  Bootstrap</li>
                         </ul>
                     </div>
                     <div class="tools">
@@ -95,34 +93,40 @@
                             <li>Git/Github</li>
                             <li>Intellij IDEA</li>
                         </ul>
-                    </div>
-                    <div style="clear:both"></div>
+                    </div>                    
                 </div>                
             </div>
         </section> <!-- end of about-me -->
 
-        <section id="contact-me" class="container">
+        <section id="contact-me">
             <h2 class="sub">contact me</h2>
-            <dl>
-                <dt>Address:</dt>
-                <dd>Saint-Louis, Senegal</dd>
+            <div class="container">                
+                <div class="col-md">                    
+                    <dl>
+                        <dt>Location:</dt>
+                        <dd><i class="fa fa-map-marker" aria-hidden="true"></i>Saint-Louis, Senegal</dd>
 
-                <dt>Email:</dt>
-                <dd>thierved01@gmail.com</dd>
+                        <dt>Email:</dt>
+                        <dd><i class="fa fa-envelope" aria-hidden="true"></i>thierved01@gmail.com</dd>
 
-                <dt>Phone:</dt>
-                <dd>+221 77 373 69 56</dd> 
-            </ul>
-            <form action="">
-                <input type="text">
-                <input type="text"><br>
-                <textarea name="" id="" cols="30" rows="10"></textarea><br>
-                <button>submit</button>
-            </form>
+                        <dt>Phone:</dt>
+                        <dd><i class="fa fa-phone" aria-hidden="true"></i>+221 77 373 69 56</dd> 
+                    </ul>
+                </div>
+                <div class="col-bg">               
+                    <form action="">
+                        <input type="text" id="left" placeholder="Name">
+                        <input type="text" id="right" placeholder="Email"><br>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea><br>
+                        <button>submit</button>
+                    </form> 
+                </div>
+                <div style="clear:both"></div>               
+            </div>
         </section> <!-- end of contact-me -->
             
-        <footer class="container">
-                <p>Thierno Sadou Diallo, 2017</p>
+        <footer>
+                <p>Thierno Sadou Diallo, &copy; 2017</p>
         </footer>        
 
     </body>
