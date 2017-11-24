@@ -257,3 +257,22 @@ nav i {
     text-align: center;
     margin: 5px;
 }
+
+
+input, textarea, button {
+    display: block;
+    width: 85%;
+    margin: auto;
+    padding: 8px;
+    font-size: 1.1rem;
+}
+
+input {
+    height: 35px; 
+    margin-top: 7px;    
+}
+
+footer {
+    height: 50px;
+    background-color: #eee;    
+}
